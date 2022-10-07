@@ -1,0 +1,49 @@
+.country-card{
+    overflow: hidden;
+    border-radius: 5px;
+    max-width: 270px;
+    max-height: 800px;
+    cursor: pointer;
+}
+
+
+.flag-country{
+    height: 60%;
+    overflow: hidden;
+}
+
+.flag-country img{
+    height: auto;
+    width: 100%;
+}
+
+
+.country-info{
+    height: 50%;
+    padding: 00px 0px 50px 20px;
+    
+}
+ h6{
+    font-size:18px;
+    font-weight: 800;
+ }
+
+ .bold{
+    font-weight: 600;
+    font-size: 14px;
+ }
+
+ .bold span{
+    font-weight: 300;
+    padding-left: 8px;
+ }
+
+
+
+ @media screen and (min-width:1258px){
+    .country-info{
+        padding: 0px 0px 0px 20px;
+    }
+
+ }
+

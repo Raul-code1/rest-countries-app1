@@ -1,0 +1,26 @@
+.filter-list{
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    margin-left: -15px;
+    transform: translatey(25px);
+    border-radius: 5px;
+    list-style: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.filter-list li{
+    padding: 10px 0px 10px 15px;
+    z-index: 9999;
+}
+
+.filter-list li:hover{
+    background-color: hsl(0,0%, 52%);
+
+}
+
+
+.toggle-menu{
+    opacity: 0;
+    visibility: hidden;
+}

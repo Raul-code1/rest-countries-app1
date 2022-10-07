@@ -1,0 +1,45 @@
+.filter-section-container{
+    width: 100%;
+    min-height: 150px;
+}
+
+.filter-section-container form{
+    padding: 15px 0px 15px 40px;
+    border-radius: 5px;
+
+}
+
+.filter-section-container form input{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding-left:20px;
+}
+
+
+
+
+
+@media screen and (min-width:705px){
+
+    .filter-section-container{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .filter-section-container form{
+        width: 50%;
+        height: 50%;
+    }
+
+
+}
+
+
+@media screen and (min-width:1250px){
+    .filter-section-container form{
+        width: 35%;
+    }
+}

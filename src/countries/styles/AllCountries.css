@@ -1,0 +1,43 @@
+.container-countries{
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 14px;
+}
+
+
+.grid-container{
+    background-color: hsl(0, 0%, 98%);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr ;
+    row-gap: 40px;
+    position: relative;
+    z-index: 1;
+    justify-items: center;
+}   
+
+
+
+
+@media screen and (min-width:706px){
+
+    .container-countries {
+        padding-top: 0px;
+    }
+
+
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+}
+
+@media screen and (min-width:1258px){
+    
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
