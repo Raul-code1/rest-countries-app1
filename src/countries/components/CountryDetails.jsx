@@ -10,6 +10,7 @@ export const CountryDetails = ({country}) => {
     const navigate=useNavigate();
 
     const {darkTheme} = useContext(DarkModeContext)
+    
 
 
     const themeBtns=(darkTheme)?'dark-mode-elements':'light-mode-elements box-shadow',
@@ -38,10 +39,12 @@ export const CountryDetails = ({country}) => {
             </div>
             <div className={`col2  ${infoText} `}>
                 <p className="bold">Top Level Domain:<span>{country[0]?.tld}</span></p>
-                <p className="bold">Currencies:<span>{
-                    
-                    }</span></p>
-                <p className="bold">Languages :<span>{}</span></p>
+
+
+                <p className="bold">Currencies:<span> </span></p>
+
+
+                <p className="bold">Languages :<span> <br/>  </span></p>
             </div>
             <div className="col3">
                 <h5 className={`${infoText}`}>Border Countries:</h5>

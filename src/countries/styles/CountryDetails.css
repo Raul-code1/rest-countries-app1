@@ -83,6 +83,10 @@
         width: 50%;
     }
 
+    .col3{
+        grid-column: 1/3;
+    }
+
     
 }
 

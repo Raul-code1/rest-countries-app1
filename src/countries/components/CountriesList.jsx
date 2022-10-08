@@ -1,3 +1,4 @@
+import { Message } from "../../ui/Components/Message";
 import { CountyCard } from "./CountyCard";
 
 export const CountriesList = ({ countries, inputValue, error }) => {
@@ -10,7 +11,7 @@ export const CountriesList = ({ countries, inputValue, error }) => {
   return (
     <>
       {result.length === 0 && error === null && (
-        <p >Make sure you have typed  the name of the country correctly 🧐 </p>
+        <Message />
       )}
 
       {Array.isArray(result)
